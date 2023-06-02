@@ -22,6 +22,6 @@ Principalmente se trata del aprovisionamiento de:
 ## Instructions
 ------------
 * Obtain a AK/SK from the Huawei Cloud console in [MyCredentials](https://console-intl.huaweicloud.com/iam/#/mine/apiCredential) page 
-* Add your AK/SK data and region to the terraform.tfvars terraform file
+* Add your AK/SK data and region to the **terraform.tfvars** terraform file
 * Don't forget initialize your environment with: `terraform init`
 * Apply the script into the cloud using: `terraform apply`

@@ -8,7 +8,7 @@ Principalmente se trata del aprovisionamiento de:
 * Instancia de cómputo ECS ([Elastic Cloud Server](https://www.huaweicloud.com/intl/es-us/product/ecs.html))
 
 ![Solution Diagram](huawei_tf.png "Solution Diagram")
-
+## Steps
 1. Install Terraform
 2. Add the oficial provider
 3. Obtain Active and Secret Key (AK/SK)

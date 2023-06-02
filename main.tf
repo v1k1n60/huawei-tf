@@ -2,11 +2,9 @@
 # This will work with a single defined/default network, otherwise you need to specify network
 # to fix errors about multiple networks found.
 provider "huaweicloud" {
-  # tenant_name = var.region
   region      = var.region
   access_key  = var.ak
   secret_key  = var.sk
-  # the auth url format follows: https://iam.{region_id}.myhwclouds.com:443/v3
   auth_url    = "https://iam.${var.region}.myhuaweicloud.com/v3"
 }
 
@@ -48,9 +46,7 @@ resource "huaweicloud_compute_instance_v2" "basic" {
   image_name        = "Ubuntu 18.04 server 64bit"
   flavor_name       = "s3.medium.4"
   # key_pair          = "KeyPair-TF"
-  security_groups   = [huaweicloud_networking_secgroup_v2.secgroup_1.name]
-  # revisar como deberia especificarse la AZ
-  # availability_zone = "${var.region}"
+  security_groups   = [ huaweicloud_networking_secgroup_v2.secgroup_1.name ]
   availability_zone = data.huaweicloud_availability_zones.zones.names[0]
 
 

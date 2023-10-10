@@ -26,7 +26,7 @@ resource "huaweicloud_vpc_subnet_v1" "subnet_v1" {
 
 # Create Security Group and rule ssh
 resource "huaweicloud_networking_secgroup_v2" "secgroup_1" {
-  name        = "secgroup_tf_1"
+  name        = "secgroup_tf_2"
   description = "My neutron security group"
 }
 

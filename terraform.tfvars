@@ -1,3 +1,5 @@
-ak="<PUT_HERE_YOUR_AK>"
-sk="<PUT_HERE_YOUR_SK>"
-region="<PUT_HERE_YOUR_REGION>"
+ak     = "H10QUDNMKLYHYA2J0Q52"
+sk     = "7wa2WvUUc5DyS0GE2TfSZ6Bqevox6blq0xmRFJpx"
+#ak = "NOLZKBJWPRN0BDIAYYCC"
+#sk = "lepTT8EH93fVxiQuD7BBbKkAlhtCoNUThDHBWxoa"
+region = "la-south-2"

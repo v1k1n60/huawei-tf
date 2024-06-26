@@ -7,3 +7,4 @@
 Automatización es un término que refiere a aplicaciones de tecnología donde se minimiza la participación humana. IBM
 - que es IaC
 - que es terraform
+- El codigo se esta comiendo al mundo, quien ha escuchado de esto
